@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+    font-size: 100%;
+    background-image: url(imagens/flamengo9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+   
+}
+
+#fundo_fosco{
+    background-color: rgba(255, 255, 255,0.9);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.cabecalho{
+    background-color: white;
+    margin: none;
+    padding: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+p{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+}
+
+h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.estilolink {
+    background-color:#a11722;
+    color: white;
+    padding: 10px;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+    
+}
+
+.estilolink:hover{
+    background-color: black;
+}
+
+
+.rodape{
+    background-color: white;
+    margin: none;
+    padding: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linkrodape{
+    background-color:#a11722;
+    color: white;
+    padding: 10px;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.linkrodape:hover{
+    background-color: black;
+}
+
+
+.tagiuri{
+    background-color:#a11722;
+    color: black;
+    padding: 10px;    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.tagiuri:hover{
+    background-color: white;
+    color: red;
+}
+
+.centrotag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+th{
+    color: black;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+td{
+    border: 1px solid;
+    text-align: center;
+    padding: 3px;
+}
+
+.gabigol:visited{
+    color: black;
+}
+
+.flamengo:visited{
+    color: black;
+}
+
+
